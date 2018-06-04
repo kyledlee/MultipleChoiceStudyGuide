@@ -1,0 +1,72 @@
+Backus-Naur Form, used to define syntax, was first used in the definition of: 
+ALGOL
+BASIC
+COBOL
+FORTRAN
+a
+What is the Smalltalk expression for the square root of 2?
+sqrt (2)
+2 sqrt
+Number::sqrt 2
+2 ^ .5
+b
+What is ((lambda (x) x) (+ 2 3) ?
+(+ 2 3)
++
+10
+5
+d
+In a garbage collected language like Java, with no free function or its equivalent, \nif M = memory leaks and D = dangling pointers or references, which is possible?
+D but not M
+M but not D
+Both M and D
+Neither M nor D
+b
+What is the running time of let rec f n = if n <= 1 then n else f (n-1) + f (n-2) ?
+O(log2 n)
+O(n)
+O(2^n)
+O(n^2)
+c
+The Java idea of an interface is implemented in Smalltalk as:
+abstract classes
+duck typing
+multiple inheritance of fields
+single inheritance
+b
+For a list of length n, how much function call stack space is used by fold left and fold right?
+fold left O(1) and fold right O(1)
+fold left O(1) and fold right O(n)
+fold left O(n) and fold right O(1)
+fold left O(n) and fold right O(n)
+b
+In Smalltalk what is the meaning of: foo bar + foo set: 3 + 4 next
+((foo bar) + foo) set: (3 + (4 next))
+(foo (bar + foo)) set: ((3 + 4) next)
+(foo bar) + (foo set: 3) + (4 next)
+(foo bar) + (foo set: 3) + (4 next)
+a
+What is 7 in Smalltalk?
+(+) 3 4.
+(3+4) value.
+[3+4] value.
+{3+4} value.
+c
+Which function can be implemented using a constant amount of stack space?
+filter
+fold_left
+fold_right
+map
+b
+The PL/1 language allows a non-local goto directly from a function to a label \nin a function deeper down in the function call stack, thus returning past several levels of function calls. \nIn Java, something similar can be accomplished by what statement?
+goto
+implements
+synchronized
+throw
+d
+If we define the block sum := [:i :j| i + j] in Smalltalk, how might we obtain the number 7?
+3 4 sum
+3 sum: 4
+sum 3 value 4 value
+sum value: 3 value: 4
+d
